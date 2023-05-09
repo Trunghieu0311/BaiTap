@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">AutoCompleteTextView</string>
+
+    <string-array name="Countries">
+        <item name="Vietnam"/>
+        <item name="Venezuela"/>
+        <item name="Vanuatu"/>
+
+    </string-array>
+</resources>

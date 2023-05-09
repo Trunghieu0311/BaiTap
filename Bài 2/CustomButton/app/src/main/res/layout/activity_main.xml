@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/material_dynamic_primary10">
+
+  <LinearLayout
+      android:layout_width="wrap_content"
+      android:layout_height="match_parent"
+      android:padding="10dp"
+      android:orientation="vertical">
+
+      <Button
+          android:layout_width="wrap_content"
+          android:layout_height="match_parent"
+          android:layout_marginLeft="50dp"
+          android:background="#8BC34A"
+          android:paddingRight="20dp"
+          android:paddingLeft="20dp"
+          android:textColor="@color/white"
+          android:text="Click Here"/>
+
+      <Button
+          android:layout_width="wrap_content"
+          android:layout_height="match_parent"
+          android:layout_marginTop="30dp"
+          android:layout_marginLeft="40dp"
+          android:background="#F06292"
+          android:paddingLeft="20dp"
+          android:paddingRight="20dp"
+          android:text="Click Here 1"
+          android:textColor="@color/black" />
+
+      <Button
+          android:layout_width="wrap_content"
+          android:layout_height="match_parent"
+          android:layout_marginTop="30dp"
+          android:layout_marginLeft="40dp"
+          android:background="@drawable/click_here_2"
+          android:paddingLeft="20dp"
+          android:paddingRight="20dp"
+          android:text="Click Here 2"
+          android:textColor="@color/black" />
+      <Button
+          android:layout_width="wrap_content"
+          android:layout_height="match_parent"
+          android:layout_marginTop="30dp"
+          android:layout_marginLeft="40dp"
+          android:background="@drawable/click_here_3"
+          android:paddingLeft="20dp"
+          android:paddingRight="20dp"
+          android:text="Click Here 3"
+          android:textColor="@color/black" />
+      <Button
+          android:layout_width="wrap_content"
+          android:layout_height="match_parent"
+          android:layout_marginTop="30dp"
+          android:layout_marginLeft="40dp"
+          android:background="@drawable/click_here_4"
+          android:paddingLeft="20dp"
+          android:paddingRight="20dp"
+          android:text="Click Here 4"
+          android:textColor="@color/black" />
+
+      <Button
+          android:layout_width="50dp"
+          android:layout_height="50dp"
+          android:layout_marginTop="30dp"
+          android:layout_marginLeft="40dp"
+          android:background="@drawable/circle"
+          android:paddingLeft="20dp"
+          android:paddingRight="20dp"
+          android:text="+"
+          android:textColor="@color/black" />
+
+      <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="20dp"
+      android:orientation="horizontal">
+
+      <Button
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:background="@drawable/click_here_5"
+          android:text="Click Here 5"
+          android:textColor="@android:color/white" />
+
+      <Button
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:background="@drawable/click_here_6"
+          android:text="Click Here 6"
+          android:textColor="@android:color/white" />
+
+
+  </LinearLayout>
+      <Button
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="20dp"
+          android:background="@drawable/click_here"
+          android:text="Click Here 7"
+          android:textColor="@android:color/white" />
+
+      <ImageButton
+          android:id="@+id/imageButton"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="20dp"
+          app:srcCompat="@drawable/img_login"
+          android:background="@android:color/white"/>
+
+  </LinearLayout>
+
+</ScrollView>
